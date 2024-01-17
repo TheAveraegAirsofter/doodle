@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: opacity 0.5s ease;
+}
+
+.main-heading {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: #008CBA;
+    list-style-type: none;
+}
+
+.nav-list li {
+    margin: 0 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-list li:hover {
+    color: orange; 
+    transition: color 0.2s ease-in-out;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

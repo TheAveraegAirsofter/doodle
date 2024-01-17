@@ -1,0 +1,18 @@
+document.getElementById('email-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert(`Subscribed successfully with email: ${document.getElementById('email').value}`);
+});
+
+let dynamicContent = document.getElementById('dynamic-content');
+
+document.getElementById('home').addEventListener('click', function() {
+    dynamicContent.innerHTML = `<p>Welcome to the Home page!</p>`;
+});
+
+document.getElementById('about').addEventListener('click', function() {
+    dynamicContent.innerHTML = `<p>Welcome to the About page!</p>`;
+});
+
+document.getElementById('contact').addEventListener('click', function() {
+    dynamicContent.innerHTML = `<p>Welcome to the Contact page!</p>`;
+});
